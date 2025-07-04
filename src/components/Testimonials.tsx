@@ -5,20 +5,20 @@ const Testimonials = () => {
   const testimonials = [
     {
       name: "Robert M.",
-      age: "Age 72",
-      text: "This app has been a lifesaver! I can finally understand how to use my smartphone without bothering my grandkids every day. The explanations are so clear and patient.",
+      age: "72 Jahre",
+      text: "Diese App war ein Lebensretter! Ich kann endlich verstehen, wie ich mein Smartphone benutze, ohne täglich meine Enkelkinder zu stören. Die Erklärungen sind so klar und geduldig.",
       rating: 5
     },
     {
-      name: "Margaret S.",
-      age: "Age 68",
-      text: "I was scared of technology, but TechApp makes it feel friendly. I've learned to video call my family and even order groceries online. Thank you!",
+      name: "Margarete S.",
+      age: "68 Jahre",
+      text: "Ich hatte Angst vor Technologie, aber TechApp macht sie freundlich. Ich habe gelernt, Videoanrufe mit meiner Familie zu führen und sogar online Lebensmittel zu bestellen. Vielen Dank!",
       rating: 5
     },
     {
-      name: "Frank D.",
-      age: "Age 75",
-      text: "The voice feature is amazing. I can just ask questions out loud, and it helps me step by step. Much better than trying to read tiny instruction manuals.",
+      name: "Franz D.",
+      age: "75 Jahre",
+      text: "Die Sprachfunktion ist fantastisch. Ich kann einfach meine Fragen laut stellen, und es hilft mir Schritt für Schritt. Viel besser als winzige Bedienungsanleitungen zu lesen.",
       rating: 5
     }
   ];
@@ -28,11 +28,11 @@ const Testimonials = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-            What Our Users Say
+            Was unsere Nutzer sagen
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Join thousands of seniors who have discovered the joy of using technology 
-            with confidence and independence.
+            Schließen Sie sich Tausenden von Senioren an, die die Freude entdeckt haben, 
+            Technologie mit Vertrauen und Selbstständigkeit zu nutzen.
           </p>
         </div>
 
@@ -62,17 +62,17 @@ const Testimonials = () => {
         <div className="text-center mt-12">
           <div className="bg-blue-50 rounded-2xl p-8 md:p-12">
             <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-              Ready to Get Started?
+              Bereit anzufangen?
             </h3>
             <p className="text-xl text-gray-600 mb-8">
-              Download TechApp today and discover how easy technology can be.
+              Laden Sie TechApp heute herunter und entdecken Sie, wie einfach Technologie sein kann.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-xl font-semibold transition-colors">
-                Download for iPhone
+                Für iPhone herunterladen
               </button>
               <button className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg text-xl font-semibold transition-colors">
-                Download for Android
+                Für Android herunterladen
               </button>
             </div>
           </div>

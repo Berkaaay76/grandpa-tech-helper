@@ -5,33 +5,33 @@ const Features = () => {
   const features = [
     {
       icon: MessageSquare,
-      title: "Simple Conversations",
-      description: "Chat in plain English. No technical jargon or complicated terms - just friendly, helpful responses."
+      title: "Einfache Gespräche",
+      description: "Chatten Sie in normalem Deutsch. Keine Fachbegriffe oder komplizierten Ausdrücke - nur freundliche, hilfreiche Antworten."
     },
     {
       icon: Volume2,
-      title: "Voice Support",
-      description: "Speak your questions out loud. Perfect for when typing is difficult or inconvenient."
+      title: "Sprachunterstützung",
+      description: "Sprechen Sie Ihre Fragen laut aus. Perfekt, wenn das Tippen schwierig oder unpraktisch ist."
     },
     {
       icon: Eye,
-      title: "Large, Clear Text",
-      description: "Easy-to-read interface with adjustable text size. Designed for comfortable viewing."
+      title: "Große, klare Schrift",
+      description: "Leicht lesbare Benutzeroberfläche mit anpassbarer Textgröße. Entwickelt für komfortables Betrachten."
     },
     {
       icon: Clock,
-      title: "Patient & Understanding",
-      description: "Take your time. Ask the same question multiple times - we're here to help at your pace."
+      title: "Geduldig & verständnisvoll",
+      description: "Lassen Sie sich Zeit. Stellen Sie dieselbe Frage mehrmals - wir sind hier, um in Ihrem Tempo zu helfen."
     },
     {
       icon: Users,
-      title: "Family-Friendly",
-      description: "Connect with family members who can help you remotely and share your progress."
+      title: "Familienfreundlich",
+      description: "Verbinden Sie sich mit Familienmitgliedern, die Ihnen aus der Ferne helfen und Ihre Fortschritte teilen können."
     },
     {
       icon: Shield,
-      title: "Safe & Private",
-      description: "Your conversations are private and secure. We never share your personal information."
+      title: "Sicher & privat",
+      description: "Ihre Gespräche sind privat und geschützt. Wir geben niemals Ihre persönlichen Daten weiter."
     }
   ];
 
@@ -40,11 +40,11 @@ const Features = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-            Built Specifically for You
+            Speziell für Sie entwickelt
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Every feature is designed with seniors in mind. We understand that technology 
-            can be overwhelming, so we've made everything as simple and helpful as possible.
+            Jede Funktion ist mit Senioren im Hinterkopf entwickelt worden. Wir verstehen, dass 
+            Technologie überwältigend sein kann, deshalb haben wir alles so einfach und hilfreich wie möglich gemacht.
           </p>
         </div>
 

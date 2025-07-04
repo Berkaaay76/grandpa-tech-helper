@@ -21,16 +21,16 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#features" className="text-gray-600 hover:text-blue-600 transition-colors text-lg">
-              Features
+              Funktionen
             </a>
             <a href="#testimonials" className="text-gray-600 hover:text-blue-600 transition-colors text-lg">
-              Reviews
+              Bewertungen
             </a>
             <a href="#contact" className="text-gray-600 hover:text-blue-600 transition-colors text-lg">
-              Contact
+              Kontakt
             </a>
             <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-lg px-6 py-3">
-              Download App
+              App herunterladen
             </Button>
           </nav>
 
@@ -38,7 +38,7 @@ const Header = () => {
           <button
             className="md:hidden p-2"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            aria-label="Toggle menu"
+            aria-label="Menü umschalten"
           >
             {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
@@ -53,24 +53,24 @@ const Header = () => {
                 className="text-gray-600 hover:text-blue-600 transition-colors text-lg py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Features
+                Funktionen
               </a>
               <a
                 href="#testimonials"
                 className="text-gray-600 hover:text-blue-600 transition-colors text-lg py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Reviews
+                Bewertungen
               </a>
               <a
                 href="#contact"
                 className="text-gray-600 hover:text-blue-600 transition-colors text-lg py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Contact
+                Kontakt
               </a>
               <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-lg mt-4">
-                Download App
+                App herunterladen
               </Button>
             </nav>
           </div>

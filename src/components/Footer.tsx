@@ -16,9 +16,9 @@ const Footer = () => {
             </div>
             
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
-              Making technology accessible and friendly for seniors. Our AI-powered 
-              assistant is here to help you navigate the digital world with confidence 
-              and ease.
+              Wir machen Technologie zugänglich und freundlich für Senioren. Unser KI-gestützter 
+              Assistent ist hier, um Ihnen dabei zu helfen, sich mit Vertrauen und Leichtigkeit 
+              in der digitalen Welt zurechtzufinden.
             </p>
             
             <div className="space-y-3">
@@ -28,11 +28,11 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-blue-400" />
-                <span className="text-gray-300">1-800-TECH-HELP</span>
+                <span className="text-gray-300">0800-TECH-HILFE</span>
               </div>
               <div className="flex items-center gap-3">
                 <MapPin className="w-5 h-5 text-blue-400" />
-                <span className="text-gray-300">Available nationwide</span>
+                <span className="text-gray-300">Deutschlandweit verfügbar</span>
               </div>
             </div>
           </div>
@@ -41,21 +41,21 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-6">Support</h3>
             <ul className="space-y-3 text-gray-300">
-              <li><a href="#" className="hover:text-blue-400 transition-colors">Help Center</a></li>
-              <li><a href="#" className="hover:text-blue-400 transition-colors">Video Tutorials</a></li>
-              <li><a href="#" className="hover:text-blue-400 transition-colors">Contact Us</a></li>
-              <li><a href="#" className="hover:text-blue-400 transition-colors">Live Chat Support</a></li>
+              <li><a href="#" className="hover:text-blue-400 transition-colors">Hilfe-Center</a></li>
+              <li><a href="#" className="hover:text-blue-400 transition-colors">Video-Tutorials</a></li>
+              <li><a href="#" className="hover:text-blue-400 transition-colors">Kontakt</a></li>
+              <li><a href="#" className="hover:text-blue-400 transition-colors">Live-Chat Support</a></li>
             </ul>
           </div>
 
           {/* Resources */}
           <div>
-            <h3 className="text-xl font-bold mb-6">Resources</h3>
+            <h3 className="text-xl font-bold mb-6">Ressourcen</h3>
             <ul className="space-y-3 text-gray-300">
-              <li><a href="#" className="hover:text-blue-400 transition-colors">Getting Started</a></li>
-              <li><a href="#" className="hover:text-blue-400 transition-colors">Privacy Policy</a></li>
-              <li><a href="#" className="hover:text-blue-400 transition-colors">Terms of Service</a></li>
-              <li><a href="#" className="hover:text-blue-400 transition-colors">Accessibility</a></li>
+              <li><a href="#" className="hover:text-blue-400 transition-colors">Erste Schritte</a></li>
+              <li><a href="#" className="hover:text-blue-400 transition-colors">Datenschutzrichtlinie</a></li>
+              <li><a href="#" className="hover:text-blue-400 transition-colors">Nutzungsbedingungen</a></li>
+              <li><a href="#" className="hover:text-blue-400 transition-colors">Barrierefreiheit</a></li>
             </ul>
           </div>
         </div>
@@ -63,14 +63,14 @@ const Footer = () => {
         <div className="border-t border-gray-700 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-center md:text-left">
-              © 2024 TechApp. All rights reserved. Made with ❤️ for seniors.
+              © 2024 TechApp. Alle Rechte vorbehalten. Mit ❤️ für Senioren entwickelt.
             </p>
             <div className="flex gap-6">
               <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
-                Privacy
+                Datenschutz
               </a>
               <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
-                Terms
+                Bedingungen
               </a>
               <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
                 Support
